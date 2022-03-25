@@ -1,0 +1,24 @@
+CRITICAL - 2022-03-10 08:46:28 --> auth filter must have a matching alias defined.
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-10 14:17:02 --> Access level to App\Controllers\RootController::$session must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-10 15:18:18 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-03-10 15:22:50 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-03-10 16:45:16 --> Champ 'confirmed_at' inconnu dans field list
+CRITICAL - 2022-03-10 16:45:16 --> Champ 'confirmed_at' inconnu dans field list
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE users SE...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE users SE...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE users SE...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\UsersModel.php(59): CodeIgniter\Database\BaseConnection->query('UPDATE users SE...', Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Libraries\Registration.php(125): App\Models\UsersModel->updateConfirmationToken('4')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\RegistrationController.php(98): App\Libraries\Registration->confirm('4', 'k6W6gnOWLZ5JgRu...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\RegistrationController->confirm()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrationController))
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

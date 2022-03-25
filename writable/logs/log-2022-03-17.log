@@ -1,0 +1,29 @@
+CRITICAL - 2022-03-17 17:07:07 --> Undefined variable $id
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 190)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 17:41:36 --> Undefined property: Config\MainConfig::$IS_ACTIVE_MAIL_EACH_VISIT_ITEM
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\l...', 193)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 17:42:40 --> Undefined property: Config\MainConfig::$self
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\l...', 193)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 17:54:47 --> Access to undeclared static property Config\MainConfig::$timeCookie
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Libraries\Authentication.php(45): App\Libraries\Authentication->remember()
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\LoginController.php(30): App\Libraries\Authentication->login('Invite', '74269', 'on')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

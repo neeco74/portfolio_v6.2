@@ -1,0 +1,512 @@
+ERROR - 2022-03-12 09:16:21 --> Error connecting to the database: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+CRITICAL - 2022-03-12 09:16:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\UsersModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...', Array)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Libraries\Authentication.php(33): App\Models\UsersModel->getUserConfirmedFromEmail('nicolas@gmail.c...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\LoginController.php(30): App\Libraries\Authentication->login('nicolas@gmail.c...', 'wxcvbn', 'on')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 10:50:20 --> Too few arguments to function App\Controllers\HomeController::portfolioItem(), 1 passed in C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-12 10:51:35 --> Too few arguments to function App\Controllers\HomeController::portfolioItem(), 1 passed in C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-12 10:51:51 --> Too few arguments to function App\Controllers\HomeController::portfolioItem(), 1 passed in C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-12 10:51:54 --> Too few arguments to function App\Controllers\HomeController::portfolioItem(), 1 passed in C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-12 10:52:25 --> Undefined variable $slug2
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 48)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-12 10:58:53 --> Invalid file: templates/default_home.php
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/defau...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/defau...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/cv', Array, true)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(34): view('home/cv')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->cv()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 12:05:28 --> Call to undefined method App\Models\PortfolioItemsModel::getGaleries
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(41): CodeIgniter\Model->__call('getGaleries', Array)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-12 12:06:40 --> Undefined array key "description_sous"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_home_section_3.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 71)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\home\home.php(15): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-12 13:25:12 --> Erreur de syntaxe près de '.modified_at
+                p.users_id,
+                p.image_highlight_id,' à la ligne 15
+CRITICAL - 2022-03-12 13:25:12 --> Erreur de syntaxe près de '.modified_at
+                p.users_id,
+                p.image_highlight_id,' à la ligne 15
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(78): App\Models\PortfolioItemsModel->getItems()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-12 14:14:53 --> Erreur de syntaxe près de '.modified_at
+                p.users_id,
+                p.image_highlight_id,' à la ligne 15
+CRITICAL - 2022-03-12 14:14:53 --> Erreur de syntaxe près de '.modified_at
+                p.users_id,
+                p.image_highlight_id,' à la ligne 15
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(78): App\Models\PortfolioItemsModel->getItems()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-12 14:16:21 --> La table 'lab2_021_nicolas_olagnon_v6.2.galeries' n'existe pas
+CRITICAL - 2022-03-12 14:16:21 --> La table 'lab2_021_nicolas_olagnon_v6.2.galeries' n'existe pas
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(80): App\Models\PortfolioItemsModel->getItemsPro()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 14:16:53 --> Invalid file: home/projets_view.php
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/projets_vi...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/projets_vi...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(85): view('home/projets_vi...', Array)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 14:17:33 --> Invalid file: templates/default_home.php
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/defau...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/defau...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolio', Array, true)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(85): view('home/portfolio', Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-12 14:18:19 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 14:18:19 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('1')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-12 16:52:46 --> Undefined array key "auth"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:55:39 --> Undefined array key "auth"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:55:53 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:57:06 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:57:07 --> Attempt to read property "role" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_card.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 19)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\home\portfolio.php(53): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolio', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(85): view('home/portfolio', Array)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-12 16:57:20 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:57:20 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/cv', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(67): view('home/cv')
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->cv()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:57:21 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-03-12 16:57:21 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 16:57:21 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('32')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-12 16:57:22 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 16:57:22 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('324')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('324')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-12 16:57:23 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 16:57:23 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('32')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('32')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-12 16:57:26 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 16:57:43 --> Attempt to read property "id_user" on array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_nav.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\l...', 36)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\templates\template_home.php(22): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/templ...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/home', Array, true)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(45): view('home/home', Array)
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-12 17:30:46 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolio', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(85): view('home/portfolio', Array)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-12 17:58:09 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 17:58:09 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('1')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-12 19:48:52 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 19:48:52 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('1')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-12 19:49:06 --> Champ 'id_galerie' inconnu dans where clause
+CRITICAL - 2022-03-12 19:49:06 --> Champ 'id_galerie' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(70): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(102): App\Models\PortfolioItemsModel->getItems('1')
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-12 20:03:32 --> Champ 'c.galeries_id' inconnu dans where clause
+CRITICAL - 2022-03-12 20:03:32 --> Champ 'c.galeries_id' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\CommentairesModel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(151): App\Models\CommentairesModel->getCommentairesPortfolioItem('1')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 20:05:17 --> Undefined variable $item
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\home\portfolioItem.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 9)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolioI...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(169): view('home/portfolioI...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 20:06:44 --> Undefined variable $galerie
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\home\portfolioItem.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 18)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolioI...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(169): view('home/portfolioI...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 20:07:27 --> Undefined array key "description_right"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\home\portfolioItem.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 137)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolioI...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(169): view('home/portfolioI...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-12 20:07:55 --> Undefined array key "auth_portfolio"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\includes\include_commentaires.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 115)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(424): CodeIgniter\View\View->render('includes/includ...', NULL, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\home\portfolioItem.php(223): CodeIgniter\View\View->include('includes/includ...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolioI...', Array, true)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(169): view('home/portfolioI...', Array)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-12 20:48:10 --> syntax error, unexpected token ";"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolioI...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(169): view('home/portfolioI...', Array)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-12 20:49:02 --> Invalid file: templates/default_home.php
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/defau...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/defau...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('home/portfolioI...', Array, true)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(169): view('home/portfolioI...', Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolioItem('1')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 22:36:59 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Filters\Filters.php(173): App\Filters\AuthAdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-12 22:41:20 --> Invalid file: templates/default_home.php
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/defau...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/defau...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminController.php(11): view('admin/index')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminController->index()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-12 23:27:08 --> Class "App\Libraries\ImageResizer" not found
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(809): App\Controllers\Admin\AdminPortfolioController->__construct()
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

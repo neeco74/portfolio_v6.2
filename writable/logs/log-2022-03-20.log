@@ -1,0 +1,29 @@
+CRITICAL - 2022-03-20 21:57:46 --> Undefined variable $numberOfItems
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 53)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(45): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->index()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 21:58:02 --> Undefined variable $numberOfItems
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 52)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(45): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->index()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 23:17:29 --> Call to undefined method App\Models\PortfolioItemsModel::updatePositionItem
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(46): CodeIgniter\Model->__call('updatePositionI...', Array)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->index()
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

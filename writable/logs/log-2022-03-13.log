@@ -1,0 +1,366 @@
+CRITICAL - 2022-03-13 11:17:50 --> Undefined variable $session
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 19)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(38): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->index()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 11:18:47 --> Undefined variable $items
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 31)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(38): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->index()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 11:19:38 --> Undefined variable $listeTitreCategoriePortfolio
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 66)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('1')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 11:21:49 --> Invalid file: templates/default_home.php
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/defau...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(226): CodeIgniter\View\View->render('templates/defau...', Array, true)
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(288): view('admin/portfolio...', Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('1')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-13 11:52:26 --> Champ 'portfolio_items.id' inconnu dans where clause
+CRITICAL - 2022-03-13 11:52:26 --> Champ 'portfolio_items.id' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `portfol...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `portfol...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `portfol...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `portfol...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(204): CodeIgniter\Model->update('3', Array)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('3')
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#10 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-13 11:58:16 --> There is no data to update.
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(223): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(204): App\Models\PortfolioItemsModel->updatePortfolioItem('3', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('3')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 12:01:01 --> There is no data to update.
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(223): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(204): App\Models\PortfolioItemsModel->updatePortfolioItem('3', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('3')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 12:08:12 --> There is no data to update.
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(224): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(204): App\Models\PortfolioItemsModel->updatePortfolioItem('3', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('3')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 12:41:55 --> Class "App\Controllers\Admin\galeriesModel" not found
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->delete('1')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-13 12:50:02 --> Undefined array key "id"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 35)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(38): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->index()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 16:00:51 --> Undefined variable $item
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 222)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit()
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 16:04:16 --> Required parameter $newTaille follows optional parameter $resize
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', 'C:\\wamp64\\www\\l...', 50)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(264): include_once()
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\l...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\I...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(209): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\I...')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 16:16:31 --> Call to undefined method App\Models\PortfolioItemsModel::deleteItem
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(244): CodeIgniter\Model->__call('deleteItem', Array)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->delete('5')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 21:30:43 --> Undefined array key "name"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Libraries\ImagesManager.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 32)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(98): App\Libraries\ImagesManager::deleteImage('16')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('7')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-13 21:31:59 --> Undefined array key "name"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Libraries\ImagesManager.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\l...', 32)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(98): App\Libraries\ImagesManager::deleteImage('16')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('7')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-13 21:33:09 --> Undefined variable $session
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\edit.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 25)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(229): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('7')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 21:34:59 --> Undefined variable $session
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Views\admin\portfolio\edit.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\l...', 25)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(210): include('C:\\wamp64\\www\\l...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Common.php(1089): CodeIgniter\View\View->render('admin/portfolio...', Array, true)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(229): view('admin/portfolio...', Array)
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('7')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 22:13:26 --> Call to undefined method App\Models\ImagesModel::getSmallImagesPortfolioItems
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(81): CodeIgniter\Model->__call('getSmallImagesP...', Array)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('6')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 22:14:18 --> Call to undefined method App\Models\ImagesModel::getSmallImage
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(81): CodeIgniter\Model->__call('getSmallImage', Array)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('6')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-13 22:14:30 --> Champ 'portfolio_items' inconnu dans where clause
+CRITICAL - 2022-03-13 22:14:30 --> Champ 'portfolio_items' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\ImagesModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\Admin\AdminPortfolioController.php(81): App\Models\ImagesModel->getSmallImages('portfolio_items', '6')
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\Admin\AdminPortfolioController->edit('6')
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminPortfolioController))
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-13 23:01:10 --> Call to undefined method App\Models\ImagesModel::getImagesPortfolioItems
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(30): CodeIgniter\Model->__call('getImagesPortfo...', Array)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->home()
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-13 23:34:17 --> Erreur de syntaxe près de '' à la ligne 26
+CRITICAL - 2022-03-13 23:34:17 --> Erreur de syntaxe près de '' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeiginiter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:34:59 --> Erreur de syntaxe près de '' à la ligne 26
+CRITICAL - 2022-03-13 23:34:59 --> Erreur de syntaxe près de '' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:37:29 --> Erreur de syntaxe près de ''. codeigniter' à la ligne 26
+CRITICAL - 2022-03-13 23:37:29 --> Erreur de syntaxe près de ''. codeigniter' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:37:47 --> Erreur de syntaxe près de '' à la ligne 26
+CRITICAL - 2022-03-13 23:37:47 --> Erreur de syntaxe près de '' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:38:40 --> Erreur de syntaxe près de '' à la ligne 26
+CRITICAL - 2022-03-13 23:38:40 --> Erreur de syntaxe près de '' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 23:38:59 --> syntax error, unexpected identifier "portfolio_items", expecting ")"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\l...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Port...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Port...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(809): App\Controllers\HomeController->__construct()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 23:39:39 --> syntax error, unexpected identifier "portfolio_items", expecting ")"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\l...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Port...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Port...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(809): App\Controllers\HomeController->__construct()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-13 23:41:01 --> Erreur de syntaxe près de '"codeigniter' à la ligne 26
+CRITICAL - 2022-03-13 23:41:01 --> Erreur de syntaxe près de '"codeigniter' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:41:20 --> Erreur de syntaxe près de '"codeigniter' à la ligne 26
+CRITICAL - 2022-03-13 23:41:20 --> Erreur de syntaxe près de '"codeigniter' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(209): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-13 23:41:45 --> syntax error, unexpected double-quote mark, expecting ")"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\l...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Port...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Port...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(809): App\Controllers\HomeController->__construct()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 23:42:49 --> syntax error, unexpected identifier "portfolio_items", expecting ")"
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\l...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Port...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Port...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(809): App\Controllers\HomeController->__construct()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-13 23:43:47 --> Unclosed '(' on line 184
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\l...')
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Port...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Port...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(809): App\Controllers\HomeController->__construct()
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-13 23:45:56 --> Erreur de syntaxe près de ''codeigniter'')' à la ligne 26
+CRITICAL - 2022-03-13 23:45:56 --> Erreur de syntaxe près de ''codeigniter'')' à la ligne 26
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(211): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:46:53 --> Champ 'codeigniter' inconnu dans where clause
+CRITICAL - 2022-03-13 23:46:53 --> Champ 'codeigniter' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(211): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-13 23:52:02 --> Champ 'codeigniter' inconnu dans where clause
+CRITICAL - 2022-03-13 23:52:02 --> Champ 'codeigniter' inconnu dans where clause
+#0 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Models\PortfolioItemsModel.php(211): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\app\Controllers\HomeController.php(90): App\Models\PortfolioItemsModel->getItemsFramework('codeigniter')
+#5 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(832): App\Controllers\HomeController->portfolio()
+#6 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\lab2\021_nicolas_olagnon_v6.2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
